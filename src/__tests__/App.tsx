@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/camelcase */
 /* eslint-disable import/first */
 
-jest.mock('../utils/formatValue.ts', () => ({
+jest.mock('../utils/values.ts', () => ({
   __esModule: true,
   default: jest.fn().mockImplementation((value: number) => {
     switch (value) {
