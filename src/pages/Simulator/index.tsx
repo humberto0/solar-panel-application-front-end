@@ -147,8 +147,11 @@ const Simulator: React.FC = () => {
             <Link to="/contacts" className="title" type="submit">
               Contatos
             </Link>
+            <Link to="/signUp" className="title" type="submit">
+              Proposta
+            </Link>
             <Link to="/works" className="title" type="submit">
-              Serviço
+              Trabalhos
             </Link>
           </Header>
           <AnimationContainer>
@@ -183,7 +186,7 @@ const Simulator: React.FC = () => {
               />
               <Button type="submit">Calcular</Button>
             </Form>
-            <Link to="/singUp" className="title" type="submit">
+            <Link to="/signUp" className="title" type="submit">
               <FiLogIn />
               Se cadastrar para enviarmos uma proposta
             </Link>

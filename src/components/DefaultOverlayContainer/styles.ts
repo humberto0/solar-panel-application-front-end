@@ -326,7 +326,7 @@ export const Contacts = styled.div`
 
   a {
     margin-top: 20px;
-    background-color: #1B1B1B;
+    background-color: rgba(0, 0, 4, 0.8);
     border-radius: 10px;
     width: 100%;
     padding: 24px;

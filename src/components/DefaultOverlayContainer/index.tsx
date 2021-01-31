@@ -21,7 +21,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
       label = 'H7/Engenharia - Energia limpa e barata ao seu alcance';
       // eslint-disable-next-line no-param-reassign
       description =
-        'Com a H7/Engenharia você tem os melhores preços para sua residéncia e empresa';
+        'Com a H7/Engenharia você tem os melhores preços para sua residéncia e empresa.';
       break;
     case 'Pag2':
       // eslint-disable-next-line no-param-reassign
@@ -29,7 +29,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
       // eslint-disable-next-line no-param-reassign
       title =
         'Com a H7/Engenharia você pode economizar até 94% da conta da sua conta luz através da energia capturada ' +
-        'por painéis fotovoltaicos';
+        'por painéis fotovoltaicos.';
       break;
     case 'Pag3':
       // eslint-disable-next-line no-param-reassign
@@ -86,7 +86,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
                 <strong>@h7engenharia100</strong>
                 <p>
                   No siga no instagram e esteja por dentro de nossos projetos e
-                  promoções{' '}
+                  promoções
                 </p>
               </div>
               <FiChevronRight size={20} />
@@ -101,7 +101,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
                 Os painéis solares para fábricas podem realmente gerar retorno?
                 A resposta é sim - veja o que sua empresa pode esperar ao
                 instalar painéis solares em fábricas e aproveitar a solar limpa
-                em suas instalações
+                em suas instalações.
               </h3>
             </Form>
             <Buttons>
@@ -133,7 +133,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
                 A H7/Engenharia foi fundada para todo tipo de mercado, e uma das
                 metas é fornecer uma solução de energia alternativa para
                 agricultores, pecuaristas e proprietários de agronegócios, desde
-                forma, ajudar a forneçer energia limpa e renovável{' '}
+                forma, ajudar a forneçer energia limpa e renovável.
               </h2>
             </Form>
             <Buttons>

@@ -86,8 +86,11 @@ const SingUp: React.FC = () => {
             <Link to="/contacts" className="title" type="submit">
               Contatos
             </Link>
+            <Link to="/signUp" className="title" type="submit">
+              Proposta
+            </Link>
             <Link to="/works" className="title" type="submit">
-              Serviço
+              Trabalhos
             </Link>
           </Header>
           <AnimationContainer>

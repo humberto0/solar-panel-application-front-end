@@ -16,6 +16,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 import { Container, Content, Background, AnimationContainer } from './styles';
+import { Header } from '../../components/UniqueOverlay/styles';
 
 interface SignInFormData {
   email: string;
@@ -71,6 +72,26 @@ const SignIn: React.FC = () => {
   return (
     <Container>
       <Content>
+        <Header>
+          <a href="/">
+            <img src={logoImg} alt="github_explorer" />
+          </a>
+          <a href="/" className="title" type="submit">
+            Home
+          </a>
+          <Link to="/simulator" className="title" type="submit">
+            Simule
+          </Link>
+          <Link to="/contacts" className="title" type="submit">
+            Contatos
+          </Link>
+          <Link to="/signUp" className="title" type="submit">
+            Proposta
+          </Link>
+          <Link to="/works" className="title" type="submit">
+            Trabalhos
+          </Link>
+        </Header>
         <AnimationContainer>
           <img src={logoImg} alt="GoBarber" />
           <Form ref={formRef} onSubmit={handleSubmit}>

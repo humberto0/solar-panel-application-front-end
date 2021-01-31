@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2169b96a-14b0-48a7-b2bf-3ffe078a99f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Simulator/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Simulator/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Works/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UniqueOverlay/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UniqueOverlay/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Simulator/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Simulator/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Works/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -69,7 +71,7 @@
       <workItem from="1611924840261" duration="12859000" />
       <workItem from="1611943391012" duration="9334000" />
       <workItem from="1611953821410" duration="7945000" />
-      <workItem from="1612090931727" duration="8382000" />
+      <workItem from="1612090931727" duration="21453000" />
     </task>
     <servers />
   </component>
