@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2169b96a-14b0-48a7-b2bf-3ffe078a99f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FileList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FileList/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Upload/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Upload/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Import/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Import/styles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contacts/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Simulator/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Simulator/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Works/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/formatValue.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +68,8 @@
       <updated>1611924834378</updated>
       <workItem from="1611924840261" duration="12859000" />
       <workItem from="1611943391012" duration="9334000" />
-      <workItem from="1611953821410" duration="5857000" />
+      <workItem from="1611953821410" duration="7945000" />
+      <workItem from="1612090931727" duration="8382000" />
     </task>
     <servers />
   </component>

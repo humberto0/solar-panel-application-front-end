@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
-import sol from '../../assets/25.png';
+import sol from '../../assets/47.png';
 
 export const Container = styled.div`
   height: 100vh;

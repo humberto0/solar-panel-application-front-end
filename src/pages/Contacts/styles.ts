@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import sol from '../../assets/19.png';
+import sol from '../../assets/40.png';
 
 export const Container = styled.div`
   padding: 0;
@@ -13,7 +13,7 @@ export const Test = styled.div`
 export const Contacts = styled.div`
   max-width: 710px;
   margin-top: 20vh;
-  top: 35%;
+  top: 30%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -28,6 +28,7 @@ export const Contacts = styled.div`
     line-height: 48px;
     color: #ffffff;
     max-width: 1200px;
+    margin-bottom: 10px;
 
     &.about {
       text-align: center;
@@ -37,7 +38,7 @@ export const Contacts = styled.div`
 
   a {
     margin-top: 30px;
-    background-color: rgba(0, 0, 5, 0.8);
+    background-color: rgba(0, 0, 4, 0.8);
     border-radius: 10px;
     width: 100%;
     padding: 24px;

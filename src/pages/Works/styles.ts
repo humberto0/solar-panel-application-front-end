@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import sol from '../../assets/20.jpg';
+import sol from '../../assets/45.png';
 
 export const Container = styled.div`
   padding: 0;

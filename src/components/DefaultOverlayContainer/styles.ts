@@ -238,8 +238,8 @@ export const Buttons = styled.div`
 
   a {
     text-decoration: none;
-    background: #1a1720;
-    color: #ff9000;
+    background: transparent;
+    color: #f4ede8;
     opacity: 0.9;
     font-size: 13px;
     font-weight: 700;
@@ -247,18 +247,17 @@ export const Buttons = styled.div`
     text-transform: uppercase;
     padding: 13px 40px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid;
     outline: 0;
     cursor: pointer;
 
     &:hover {
       color: ${shade(0.1, '#ff9000')};
-      opacity: 0.5;
     }
 
     &.white {
-      background: #f4ede8;
-      color: #312e38;
+      background: transparent;
+      color: #f4ede8;
       opacity: 0.9;
       font-weight: 700;
 
@@ -327,7 +326,7 @@ export const Contacts = styled.div`
 
   a {
     margin-top: 20px;
-    background-color: rgba(0, 0, 5, 0.8);
+    background-color: #1B1B1B;
     border-radius: 10px;
     width: 100%;
     padding: 24px;
