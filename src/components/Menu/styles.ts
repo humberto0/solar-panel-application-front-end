@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 import { shade } from 'polished';
 
 export const Container = styled.div`
@@ -77,59 +76,6 @@ export const Header = styled.header`
     padding: 0 0;
     img {
       height: 40px;
-    }
-  }
-`;
-
-export const Footer = styled(motion.footer)`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    li {
-      list-style: none;
-      font-size: 20px;
-
-      & + li {
-        margin: 10px 0 0;
-      }
-
-      a {
-        &.footer {
-          text-decoration: none;
-          color: #f1eded;
-          transition: color 0.2s;
-          font-weight: bold;
-
-          &:hover {
-            color: #000;
-          }
-        }
-      }
-    }
-  }
-
-  margin-bottom: 30px;
-  @media (min-width: 600px) {
-    margin-bottom: 38px;
-    ul {
-      flex-direction: row;
-
-      li + li {
-        margin: 0 0 0 30px;
-      }
-    }
-  }
-  @media (max-width: 340px) {
-    a {
-      display: none;
     }
   }
 `;

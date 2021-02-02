@@ -1,16 +1,13 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { useTransform } from 'framer-motion';
-import { useWrapperScroll } from '../../model';
+
 import logoImg from '../../assets/logoLaranja.png';
 
-import { Container, Header, Footer, StyledMenu, StyledLink } from './styles';
+import { Container, Header, StyledMenu } from './styles';
 import { useOnClickOutside } from '../../hooks/Menu';
 import Hamburger from '../Hamburguer';
 
-const UniqueOverlay: React.FC = () => {
-  const { scrollYProgress } = useWrapperScroll();
-  const opacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
+const Menu: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);
   const node = useRef<HTMLDivElement>(null);
   const close = () => setOpen(false);
@@ -56,23 +53,7 @@ const UniqueOverlay: React.FC = () => {
         </StyledMenu>
         <Hamburger open={open} setOpen={setOpen} />
       </Header>
-      <Footer id="teste" style={{ opacity }}>
-        <ul>
-          <li>
-            <a className="footer" href="mailto:h7engenharia100@gmail.com">
-              {' '}
-              H7engenharia100@gmail.com{' '}
-            </a>
-          </li>
-          <li>
-            <a className="footer" href="test">
-              Celular :98991001013
-            </a>
-          </li>
-        </ul>
-      </Footer>
     </Container>
   );
 };
-
-export default UniqueOverlay;
+export default Menu;

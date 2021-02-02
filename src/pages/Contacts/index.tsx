@@ -1,33 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FiChevronRight } from 'react-icons/fi';
 import { Container, Contacts } from './styles';
-import { Footer, Header } from '../../components/UniqueOverlay/styles';
-import logoImg from '../../assets/logoLaranja.png';
+import { Footer } from '../../components/UniqueOverlay/styles';
+import Menu from '../../components/Menu';
 
 const Contact: React.FC = () => {
   return (
     <>
-      <Header>
-        <a href="/">
-          <img src={logoImg} alt="github_explorer" />
-        </a>
-        <a href="/" className="title" type="submit">
-          Home
-        </a>
-        <Link to="/simulator" className="title" type="submit">
-          Simule
-        </Link>
-        <Link to="/contacts" className="title" type="submit">
-          Contatos
-        </Link>
-        <Link to="/signUp" className="title" type="submit">
-          Proposta
-        </Link>
-        <Link to="/works" className="title" type="submit">
-          Trabalhos
-        </Link>
-      </Header>
+      <Menu />
       <Container>
         <Contacts>
           <h1>Converse conosco</h1>

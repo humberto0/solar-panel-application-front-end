@@ -6,8 +6,7 @@ import { FormHandles } from '@unform/core';
 import { FiArrowLeft, FiMail, FiUser, FiMapPin } from 'react-icons/fi';
 import getValidationErrors from '../../utils/getValidationErrors';
 import { Container, Content, Background, AnimationContainer } from './styles';
-import { Header } from '../../components/UniqueOverlay/styles';
-import logoImg from '../../assets/logoLaranja.png';
+import Menu from '../../components/Menu';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 import api from '../../services/api';
@@ -73,26 +72,7 @@ const SingUp: React.FC = () => {
       <Container>
         <Background />
         <Content>
-          <Header>
-            <a href="/">
-              <img src={logoImg} alt="github_explorer" />
-            </a>
-            <a href="/" className="title" type="submit">
-              Home
-            </a>
-            <Link to="/simulator" className="title" type="submit">
-              Simule
-            </Link>
-            <Link to="/contacts" className="title" type="submit">
-              Contatos
-            </Link>
-            <Link to="/signUp" className="title" type="submit">
-              Proposta
-            </Link>
-            <Link to="/works" className="title" type="submit">
-              Trabalhos
-            </Link>
-          </Header>
+          <Menu />
           <AnimationContainer>
             <Form ref={formRef} onSubmit={handleSubmit}>
               <h1>Cadastre-se</h1>

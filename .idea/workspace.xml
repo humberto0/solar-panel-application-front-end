@@ -3,15 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2169b96a-14b0-48a7-b2bf-3ffe078a99f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DefaultOverlayContainer/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UniqueOverlay/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UniqueOverlay/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UniqueOverlay/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UniqueOverlay/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Contacts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contacts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Simulator/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Simulator/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Works/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Works/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CustomerList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CustomerList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Factory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Factory/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Factory/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Factory/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Farm/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Farm/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Farm/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Farm/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/House/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/House/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UniqueOverlay" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Dev\GoStack\Projetos\-SolarEnergy\src\components\UniqueOverlay" />
       <recent name="F:\Dev\GoStack\Projetos\-SolarEnergy\src" />
       <recent name="F:\Dev\GoStack\Projetos\-SolarEnergy\src\routes" />
       <recent name="F:\Dev\GoStack\Projetos\-SolarEnergy\src\components" />
@@ -71,7 +73,10 @@
       <workItem from="1611924840261" duration="12859000" />
       <workItem from="1611943391012" duration="9334000" />
       <workItem from="1611953821410" duration="7945000" />
-      <workItem from="1612090931727" duration="21453000" />
+      <workItem from="1612090931727" duration="22048000" />
+      <workItem from="1612189880256" duration="961000" />
+      <workItem from="1612190902498" duration="6341000" />
+      <workItem from="1612216098221" duration="11032000" />
     </task>
     <servers />
   </component>

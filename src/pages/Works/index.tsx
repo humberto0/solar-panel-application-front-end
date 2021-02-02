@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiChevronRight } from 'react-icons/fi';
 import { Container, Services, Title } from './styles';
-import { Footer, Header } from '../../components/UniqueOverlay/styles';
-import logoImg from '../../assets/logoLaranja.png';
+import { Footer } from '../../components/UniqueOverlay/styles';
+import Menu from '../../components/Menu';
 import placa1 from '../../assets/21.jpg';
 import placa2 from '../../assets/22.jpeg';
 import placa3 from '../../assets/23.jpg';
@@ -11,26 +11,7 @@ import placa3 from '../../assets/23.jpg';
 const Service: React.FC = () => {
   return (
     <>
-      <Header>
-        <a href="/">
-          <img src={logoImg} alt="github_explorer" />
-        </a>
-        <a href="/" className="title" type="submit">
-          Home
-        </a>
-        <Link to="/simulator" className="title" type="submit">
-          Simule
-        </Link>
-        <Link to="/contacts" className="title" type="submit">
-          Contatos
-        </Link>
-        <Link to="/signUp" className="title" type="submit">
-          Proposta
-        </Link>
-        <Link to="/works" className="title" type="submit">
-          Trabalhos
-        </Link>
-      </Header>
+      <Menu />
       <Container>
         <Title>
           <h1>Trabalhos Recentes</h1>

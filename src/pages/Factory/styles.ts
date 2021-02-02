@@ -16,7 +16,7 @@ export const Content = styled.div`
   flex-direction: column;
   place-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 3, 0.8);
+  background-color: rgba(0, 0, 3, 0.95);
   width: 800px;
   height: 100%;
 `;
