@@ -2,6 +2,25 @@
 
 This is an application built with React that allows users to log in, edit their information and make requests for quotes on solar panels.
 
+
+### Home
+
+![Captura de tela de 2023-04-04 20-57-20](https://user-images.githubusercontent.com/15384670/229948686-cc587431-6d63-4cf0-b1e7-4314df669567.png)
+
+### Simulation
+
+![Captura de tela de 2023-04-04 20-57-28](https://user-images.githubusercontent.com/15384670/229948836-a9f55705-8368-4553-98c2-967b4b5dcbed.png)
+
+### Contacts
+
+![Captura de tela de 2023-04-04 20-57-36](https://user-images.githubusercontent.com/15384670/229948917-27f8b3e0-9467-475c-8926-fb9e4aa27616.png)
+
+
+### Advertising
+
+![Captura de tela de 2023-04-04 20-57-48](https://user-images.githubusercontent.com/15384670/229949029-ec0c61b6-976e-4de1-a008-1e0ce879016d.png)
+
+
 ## Usage
 
 Once the application is running, navigate to http://localhost:3000 in your web browser to view it. From there, you can log in, edit your information, and make requests for quotes on solar panels.
