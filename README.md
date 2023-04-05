@@ -32,7 +32,7 @@ To install and run this application, follow these steps:
 *  Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/humberto0/solar-panel-application.git
+git clone https://github.com/humberto0/solar-panel-application-front-end.git
 ```
 
 *  To install all dependencies.
